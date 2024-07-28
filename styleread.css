@@ -1,0 +1,218 @@
+body{
+    color:white;
+    background-color: black;
+    background-image: url(./asset/back4.jpg);
+    background-size:cover;
+}
+
+.navbar{
+    background-color: #262626;
+    color:white;
+}
+.learn{
+    background-color:#1f1e29;
+    color: rgb(104, 103, 103);;
+}
+.learn h6{
+    padding:0px 0px 0px 110px;
+    font-family:'Poppins';
+    transition: 1s;
+}
+.learn h4{
+    padding:0px 0px 0px 110px;
+    font-family:'Poppins';
+    transition: 1s;
+}
+.learn h6:hover{
+    color:white;
+}
+.learn h4:hover{
+    color:white;
+}
+.boxes{
+    height: 320px;
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.boxin1{
+    height: 320px;
+    width: 400.1px;
+    background-color:#16181c;
+    margin:0px 530px 0px 100px;  
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 35px;
+    transition: 1.5s;
+}
+.boxin1 i{
+    font-size: 50px;
+}
+.boxin1:hover{
+    box-shadow: 1px 1px 8px white;
+    transform:translateY(-10px);
+}
+.boxin1 a{
+    color:white;
+    text-decoration: none;
+}
+.btn{
+    transition: 1s;
+}
+.boxin2{
+    height: 320px;
+    width: 400.1px;
+    background-color:#16181c;
+    margin-right: 0px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:center;
+    font-size: 35px;
+    transition: 1.5s;
+}
+.boxin2 a{
+    color:white;
+    text-decoration: none;
+}
+.boxin2 i{
+    font-size: 50px;
+}
+.boxin2:hover{
+    box-shadow: 1px 1px 8px white;
+    transform:translateY(-10px);
+    
+}
+.boxin2{
+    animation: fadeIn 7s;
+  -webkit-animation: fadeIn 7s;
+  -moz-animation: fadeIn 7s;
+  -o-animation: fadeIn 7s;
+  -ms-animation: fadeIn 7s;
+}
+.boxin1{
+    animation: fadeIn 7s;
+  -webkit-animation: fadeIn 7s;
+  -moz-animation: fadeIn 7s;
+  -o-animation: fadeIn 7s;
+  -ms-animation: fadeIn 7s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.sub{
+    font-size: 12px;
+}
+#jj{
+    font-size: 10px ;
+}
+#cpp{
+    position: relative;
+    top:23px;
+}
+#python{
+    position: relative;
+    top:6px;
+}
+#c{
+    position: relative;
+    top:23px;
+}
+.foot p{
+    font-size: 20px;
+}
+.foot a{
+    text-decoration: none;
+    color:grey;
+    text-align: center;
+    transition: 1s;
+}
+.foot a:hover{
+    color:white;
+}
+.foot span{
+    margin:0px 27.4% 0px 20px;
+    font-size: 15px;
+}
+.learn a{
+    text-decoration: none;
+    color:rgb(104, 103, 103);
+}
+.boxin1 h1{
+    background: -webkit-linear-gradient(#ff2f14, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.boxin2 h1{
+    background: -webkit-linear-gradient(#ff2f14, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.boxin1 .sub{
+    background: -webkit-linear-gradient(#ff2f14, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px;
+}
+.boxin1 #jj{
+    background: -webkit-linear-gradient(#ff2f14, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 12px;
+    cursor: pointer;
+}
+.boxin2 .sub{
+    background: -webkit-linear-gradient(#ff2f14, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px;
+}
+.boxin1 p{
+    background: -webkit-linear-gradient(#ffffff, #ffae01);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.boxin2 p{
+    background: -webkit-linear-gradient(#ffffff, #ffae01);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-java{
+    background: -webkit-linear-gradient(#ff0000, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-python{
+    background: -webkit-linear-gradient(#0c92ff, #fbff0c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-code{
+    background: -webkit-linear-gradient(#67ff41, #c9ca89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

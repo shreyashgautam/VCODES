@@ -1,0 +1,210 @@
+body{
+    color:white;
+    background-color: black;
+    background-image: url(../asset/back4.jpg);
+    background-size: cover;
+}
+.navbar{
+    background-color: #262626;
+    color:white;
+}
+.learn{
+    background-color:#1f1e29;
+}
+.learn h6{
+    padding:0px 0px 0px 110px;
+    font-family:'Poppins';
+    transition: 1s;
+}
+.learn h4{
+    padding:0px 0px 0px 110px;
+    font-family:'Poppins';
+    transition: 1s;
+}
+.learn h6:hover{
+    color:rgb(250, 232, 209);
+}
+.learn h4:hover{
+    color:rgb(250, 232, 209);
+}
+.boxes{
+    height: 320px;
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.he{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Poppins';
+}
+.boxin1{
+    height: 370px;
+    width: 340.1px;
+    background-color:rgba(22, 24, 28,0.6);
+    margin:0px 530px 0px 100px;  
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 10px;
+    transition: 2.5s;
+    box-shadow: 1px 1px 4px white;
+}
+.boxin1 h1{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.boxin2 h1{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.boxin1 h4{
+    margin-left: 20px;
+}
+.boxin2 h4{
+    margin-left: 20px;
+}
+.boxin1 a i{
+    margin-top:40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.boxin1 p{
+    margin-left: 0px;
+    text-align: left;
+}
+.boxin1 a{
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+    transition: 1.5s;
+}
+.boxin1 a:hover{
+    color:#16181c;
+}
+.boxin1:hover{
+    background-color: rgb(255, 16, 64);
+    box-shadow: 1px 1px 8px white;
+    color:black;
+}
+.boxin2{
+    height: 370px;
+    width: 340.1px;
+    background-color:rgba(22, 24, 28,0.6);
+    margin-right: 00px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:left;
+    font-size: 35px;
+    transition: 1.5s;
+    box-shadow: 1px 1px 4px white;
+}
+#di{
+    margin-top: 60px;
+}
+.boxin2 h5{
+    margin-top:40px;
+}
+.boxin2 p{
+    margin-left: 0px;
+}
+.boxin2 a{
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+    transition: 1.5s;
+}
+.boxin2 a i{
+    margin-top:40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.boxin2 i{
+    font-size: 50px;
+}
+.boxin2 a{
+    font-size: 15px;
+    text-decoration: none;
+    color:white;
+    transition: 1.5s;
+}
+.boxin2 a:hover{
+    color:#16181c;
+}
+.boxin2:hover{
+    background-color: rgb(255, 16, 64);
+    color:#262626;
+    box-shadow: 1px 1px 8px white;
+}
+.sub{
+    font-size: 12px;
+}
+#jj{
+    font-size: 10px ;
+}
+
+.foot p{
+    font-size: 20px;
+}
+.foot a{
+    text-decoration: none;
+    color:grey;
+    text-align: center;
+    transition: 1s;
+}
+.foot a:hover{
+    color:white;
+}
+.foot span{
+    margin:0px 27.4% 0px 20px;
+    font-size: 15px;
+}
+.foot{
+    position: relative;
+    top:169px;
+}
+.boxin2{
+    animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+.boxin1{
+    animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

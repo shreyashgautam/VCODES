@@ -1,0 +1,13 @@
+.learn a{
+    text-decoration: none;
+    color:rgb(104, 103, 103);
+}
+.learn h6 a{
+    transition: 1s;
+}
+.learn h6 a:hover{
+    color:white;
+}
+.learn h6 a span{
+    color:rgb(202, 195, 195);
+}

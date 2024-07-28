@@ -1,0 +1,117 @@
+body{
+    color:white;
+    background-color: black;
+    
+}
+/* NAV TAB */
+.navbar{
+    background-color: #262626;
+    color:white;
+}
+/* prepare div */
+.learn{
+    background-color:#1f1e29;
+    color:rgb(104, 103, 103);
+}
+
+.learn h6{
+    padding:0px 0px 0px 110px;
+    font-family:'Poppins';
+    transition: 1s;
+}
+.learn h4{
+    padding:0px 0px 0px 110px;
+    font-family:'Poppins';
+    transition: 1s;
+}
+.learn h4:hover{
+    color:white;
+}
+/* MAIN DIVS */
+.boxes{
+    height: 320px;
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.boxin1{
+    height: 320px;
+    width: 400.1px;
+    background-color:#16181c;
+    margin:0px 530px 0px 100px;  
+    border-radius: 15px;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 35px;
+    transition: 1.5s;
+}
+.boxin1 i{
+    font-size: 50px;
+}
+.boxin1:hover{
+    background-color: rgba(245, 245, 245, 0.703);
+    box-shadow: 1px 1px 8px white;
+    color:black;
+}
+.boxin2{
+    height: 320px;
+    width: 400.1px;
+    background-color:#16181c;
+    margin-right: 0px;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    text-align:center;
+    font-size: 35px;
+    transition: 1.5s;
+}
+
+.boxin2 i{
+    font-size: 50px;
+}
+.boxin2:hover{
+    background-color:rgba(245, 245, 245, 0.703);
+    box-shadow: 1px 1px 8px white;
+    color:#262626;
+}
+.sub{
+    font-size: 15px;
+    margin:35px 30px;
+}
+#jj{
+    font-size: 15px ;
+    margin:14px 30px;
+}
+
+/* FOOTER */
+.foot p{
+    font-size: 15px;
+}
+.foot a{
+    text-decoration: none;
+    color:grey;
+    text-align: center;
+    transition: 1s;
+}
+.foot a:hover{
+    color:white;
+}
+.foot span{
+    margin:0px 27.4% 0px 20px;
+    font-size: 15px;
+}
+.learn a{
+    text-decoration: none;
+    color:rgb(104, 103, 103);
+}
+.learn h6 a{
+    transition: 1s;
+}
+.learn h6 a:hover{
+    color:white;
+}
+
+.learn h6 a span{
+    color:rgb(202, 195, 195);
+}
